@@ -390,9 +390,9 @@ class _MainScreenState
                 Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Padding(padding: const EdgeInsets.only(top: 10.0)),
+                    const Padding(padding: EdgeInsets.only(top: 10.0)),
                     buildBarIcon(page),
-                    Padding(padding: const EdgeInsets.only(top: 2.0)),
+                    const Padding(padding: EdgeInsets.only(top: 2.0)),
                     Builder(builder: (context) {
                       final itemTitles = [
                       ];

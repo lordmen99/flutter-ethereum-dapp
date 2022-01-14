@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_eth_wallet/modules/commot/context.dart';
+import 'package:flutter_eth_wallet/modules/common/context.dart';
 import 'package:flutter_eth_wallet/pages/router.dart';
 import 'package:flutter_eth_wallet/pages/wallet_app.dart';
 import 'package:flutter_eth_wallet/repository/wallet_repository.dart';

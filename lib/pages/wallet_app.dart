@@ -28,7 +28,10 @@ class MyApp extends StatelessWidget {
           BlocProvider(
             create: (context) => WalletBloc(),
             lazy: false,
-          )
+          ),
+          BlocProvider(
+            create: (context) => GlobalActionCubit(),
+          lazy: false,),
         ],
         child: Builder(
           builder: (context) => _buildMaterialApp(context),
